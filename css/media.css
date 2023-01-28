@@ -1,0 +1,1004 @@
+
+/**************Хидер********************************************************/
+@media screen and (max-width: 750px)
+{
+	.headd .left_menu
+	{
+		width: 100%;
+		display: none;
+		min-height: 1px;
+	}
+
+	.headd nav .emblema_menu h2
+	{
+		display: block;
+	}
+
+	.headd .left_menu .video p
+	{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+/**************************/
+@media screen and (max-width: 750px)
+{
+	.headd .left_menu nav img
+	{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.headd .left_menu nav .one_menu a,
+	.headd .left_menu nav .two_menu li a,
+	.headd ul li a,
+	.headd .left_menu .video p
+	{
+		font-size: 10px;
+	}
+
+	.headd .left_menu nav .three_menu 
+	{
+	    margin-top: calc(100%/1080*30);
+	    margin-bottom: calc(100%/1080*30);
+	}
+
+	.headd .left_menu nav .two_menu 
+	{
+	    margin-bottom: 0;
+	}
+
+	.headd .left_menu nav .one_menu
+	{
+		margin-top: 0;
+	}
+}
+
+/*Поправочные классы на скрол*/
+@media screen and (max-width: 1200px)
+{
+	.modify_scroll nav a
+	{
+		font-size: 18px !important;
+	}
+
+	.modify_scroll h3
+	{
+		font-size: 18px;
+	}
+
+	.modify_scroll li
+	{
+		margin-right: 15px !important;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	.modify_scroll nav a
+	{
+		font-size: 13px !important;
+	}
+
+	.modify_scroll h3
+	{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.modify_scroll .all_menu
+	{
+		display: none;
+	}
+
+	.modify_scroll .burger_menu
+	{
+		display: block !important;
+	}
+
+	.modify_scroll .emblema_menu
+	{
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.modify_scroll .scroll_submenu_ready li,
+	.modify_scroll .scroll_submenu_individ li,
+	.modify_scroll .scroll_submenu_about_company li
+	{
+		
+		width: 250px;
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	.modify_scroll .scroll_submenu_ready li,
+	.modify_scroll .scroll_submenu_individ li,
+	.modify_scroll .scroll_submenu_about_company li
+	{
+		
+		width: 200px;
+	}
+}
+/*Поправочные классы на скрол*/
+/**************Хидер********************************************************/
+
+/*****************************Футер*****************************************/
+@media screen and (max-width: 1100px)
+{
+
+	.footer_menu_two
+	{
+		margin-left: 20px !important;
+		width: 50%;
+	}
+
+	.footer_menu_one
+	{
+		width: 50%;
+	}
+
+	.footerr nav
+	{
+		width: 50%;
+	}
+
+	.footerr .contactt
+	{
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 860px)
+{
+	.footerr .content
+	{
+		flex-direction: column;
+	}
+
+	.footerr .contactt
+	{
+		order: 0;
+		width: 100% !important;
+		background: #4e7144;
+		justify-content: center !important;
+		padding: 20px 0 20px 0;
+	}
+
+	.footerr .contactt div
+	{
+		text-align: center !important;
+		color: #ffffff;
+	}
+
+	.footerr nav
+	{
+		order: 1;
+		width: 100%;
+		justify-content: space-around;
+		margin: 30px 0 30px 0;
+	}
+
+	.footerr .left_info
+	{
+		order: 2;
+		width: 100% !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footerr .content
+	{
+		width: 100% !important;
+	}
+
+	.footerr
+	{
+		padding-top: 0px;
+	}
+
+	.footer_menu_one,
+	.footer_menu_two
+	{
+		width: 40%;
+	}
+
+	.footerr .emblema
+	{
+		width: 40%;
+	}
+
+	.footerr .content .left_info div a
+	{
+		width: 25%;
+	}
+
+	.footerr .content .left_info p
+	{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 425px)
+{
+	.footerr ul li a
+	{
+		font-size: 12px;
+	}
+
+	.footerr .content .left_info p
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	.footerr ul li a
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.footerr .emblema
+	{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.footerr
+	{
+		margin-top: -10px;
+	}
+}
+/*****************************Футер*****************************************/
+
+
+
+/**************************Контент******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px)
+{
+	.headd .right_area .right_area_first_line div p,
+	.headd .right_area .right_area_last_line p
+	{
+		font-size: 16px;
+	}
+
+	.headd .right_area .right_area_first_line div h2
+	{
+		font-size: 20px;
+	}
+
+	.headd .right_area .main_page_title
+	{
+		font-size: 33px;
+		line-height: 40px;
+	}
+
+	.headd .right_area .main_page_price
+	{
+		font-size: 20px;
+	}
+
+	.right_area .buttonn
+	{
+		width: 25%;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.headd .right_area .desctop-case
+	{
+		display: none;
+	}
+
+	.headd .right_area .mobile-case
+	{
+		display: block !important;
+	}
+
+	.headd .right_area
+	{
+		width: 100%;
+	}
+
+	.right_area_first_line
+	{
+		justify-content: space-between;
+	}
+
+	.headd .right_area .main_page_price
+	{
+		margin: 0 0 calc(100%/1080*10) 0;
+	}
+
+	.headd .right_area_first_line img
+	{
+		display: block;
+		height: 50%;
+		width: 10%;
+	}
+
+/**/
+	.headd .right_area .right_area_first_line div h2,
+	.headd .right_area .main_page_price
+	{
+		font-size: 2.6vw;
+	}
+
+	.headd .right_area .right_area_first_line div p
+	{
+		font-size: 2.4vw;
+	}
+
+	.headd .right_area .main_page_title
+	{
+		font-size: 20px !important;
+		line-height: 25px;
+	}
+
+	.headd .right_area .right_area_last_line p
+	{
+		font-size: 2.4vw;	
+	}
+/**/
+
+	.right_area .buttonn
+	{
+		width: 30%;
+		height: 20%;
+		border-radius: 5px;
+		font-size: 14px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.headd .right_area .right_area_first_line div h2,
+	.headd .right_area .main_page_price
+	{
+		font-size: 3.4vw;
+	}
+
+	.headd .right_area .right_area_first_line div p
+	{
+		font-size: 3.3vw;
+	}
+
+	.headd .right_area .main_page_title
+	{
+		font-size: 3.8vw;
+	}
+
+	.headd .right_area .right_area_last_line p
+	{
+		font-size: 2.8vw;
+	}
+
+	.right_area .buttonn
+	{
+		font-size: 12px;
+	}
+
+	.right_area .community a
+	{
+		width: 7%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1130px)
+{
+	.content
+	{
+	    width: 95% !important;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.content
+	{
+	    width: 90% !important;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.titlee
+	{
+		font-size: 18px;
+	}
+
+	.about_company .textt div p:nth-child(2), .about_our_houses .textt div p:nth-child(2),
+	.about_company .textt div p:nth-child(3), .about_our_houses .textt div p:nth-child(4)
+	{
+		font-size: 10px;
+	}
+
+	.about_company .textt
+	{
+		width:calc(100%/1790*1277);
+		margin-left: 10px;
+		display: flex;
+		align-items: center;
+	}
+
+	.titlee
+	{
+		margin-bottom: 20px;
+	}
+
+	.about_company .textt div p:nth-child(2), .about_our_houses .textt div p:nth-child(2)
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about_company .about_company_text
+	{
+		flex-direction: column;
+	}
+
+	.about_company img
+	{
+		order: 1;
+		width: 100%;
+	}
+
+	.about_company .textt
+	{
+		order: 0;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.about_company .textt
+	{
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.about_company_numbers .blokk h2
+	{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.about_company_numbers .blokk span
+	{
+		font-size: 15px;
+	}
+
+	.about_company_numbers .blokk p
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about_company_numbers .blokk
+	{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about_our_houses .houses
+	{
+		display: none;
+	}
+ 
+	.hidden img
+	{
+		display: block !important;
+	}
+
+	.about_our_houses .textt
+	{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.hidden
+	{
+		margin-bottom: 20px;
+	}
+}
+
+/*******************************/
+@media screen and (max-width: 1000px)
+{
+	.popular_houses .four_menu li a
+	{
+		font-size: 12px;
+	}
+
+	.houses_list .house_block h2
+	{
+		font-size: 14px;
+	}
+
+	.houses_list .house_block p:nth-child(3)
+	{
+		font-size: 10px;
+	}
+
+	.houses_list .house_block p:nth-child(4)
+	{
+		font-size: 12px;
+	}
+
+	.modify_butt_houses_list 
+	{
+	    font-size: 10px;
+	    width: 120px;
+	    height: 30px;
+
+	}
+
+	.house_block .good_chois h2
+	{
+		font-size: 12px !important;
+	}
+
+	.house_block .good_chois
+	{
+		width: 60%;
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.houses_list .house_block
+	{
+		width: 48%;
+	}
+
+	.modify_house_block
+	{
+		width: 100% !important;
+	}
+
+	.popular_houses .four_menu
+	{
+		justify-content: flex-start;
+	}
+
+	.popular_houses .four_menu li
+	{
+		list-style-type: none;
+		margin-right: 0px;
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.houses_list .house_block
+	{
+		width: 100%;
+	}
+
+	.modify_house_block
+	{
+		width: 100% !important;
+	}
+
+	.all_popular_proj
+	{
+		display: block;
+	}
+
+	.modify_tytle
+	{
+		text-align: left;
+	}
+
+}
+
+@media screen and (max-width: 430px)
+{
+	.popular_houses .four_menu li
+	{
+		width: 50%;
+	}
+}
+
+/***************************/
+@media screen and (max-width: 750px)
+{
+	.townships div img
+	{
+		margin-bottom: 20px;
+	}
+	.townships div img:nth-child(1)
+	{
+		width: 15%;
+	}
+
+	.townships div img:nth-child(2)
+	{
+		width: 35%;
+	}
+
+	.townships div img:nth-child(3)
+	{
+		width: 35%;
+	}
+
+	.townships div img:nth-child(4)
+	{
+		width: 45%;
+		height: 50%;
+	}
+
+	.townships div img:nth-child(5)
+	{
+		width: 45%;
+		margin-bottom: 12%;
+	}
+
+	.townships div
+	{
+		margin-top: 0px;
+	}
+}
+/**************************************/
+
+@media screen and (max-width: 750px)
+{
+	.contacts
+	{
+		flex-direction: column;
+	}
+
+	.contacts .adress
+	{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.contacts .map
+	{
+		width: 100%;
+	}
+
+	.contacts .adress p,
+	.contacts .adress span
+	{
+		font-size: 12px;
+	}
+}
+/**********************/
+@media screen and (max-width: 1500px)
+{
+	.order div
+	{
+		top: 5%;
+	}
+
+	.order h2
+	{
+		font-size: 33px;
+	}
+
+	.order p
+	{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.order h2
+	{
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+
+	.order p
+	{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.order .buttonn
+	{
+		width: 200px;
+    	height: 40px;
+   	 	font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.order
+	{
+		background-image: url("../img/34_mobile.png");
+		padding-top: 93%;
+	}
+
+	.order div
+	{
+		top: 0;
+		left: 5%;
+		width: 90%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.order h2
+	{
+		text-align: center;
+	}
+
+	.order p
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	.order .buttonn
+	{
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 295px)
+{
+	.order h2
+	{
+		font-size: 16px;
+	}
+
+	.order p
+	{
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+}
+/*************************/
+
+/*Отступы*/
+@media screen and (max-width: 750px)
+{
+	.about_company,
+	.modify_tytle
+	{
+		margin-top: 20px !important;
+	}
+
+	.contacts
+	{
+		margin-top: 0px !important;
+	}
+
+	.about_company_numbers,
+	.about_our_houses
+	{
+		margin-bottom: 20px;
+	}
+}
+/**************************Контент******************************************/
+
+/*Попап на заявку*/
+@media screen and (max-width: 1100px)
+{
+	.send_order .pop-up-form
+	{
+		
+		max-width: 500px;
+		padding: 20px 50px;
+	}
+
+	.send_order h2
+	{
+		font-size: 20px;
+	}
+
+	.send_order p
+	{
+		font-size: 14px;
+	}
+
+	.send_order input 
+	{
+	    height: 30px;
+	    font-size: 14px;
+	}
+
+	.send_order .buttonn 
+	{
+	    width: 40%;
+	    height: 35px;
+	    font-size: 15px;
+	}
+
+	.send_order #close 
+	{
+	    font-size: 20px;
+	    right: -20px;
+    	top: -20px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.send_order .pop-up-form
+	{
+		width: 90%;
+		padding: 20px;
+	}
+
+	.send_order h2
+	{
+		font-size: 16px;
+	}
+
+	.send_order p
+	{
+		font-size: 11px;
+	}
+
+	.send_order input 
+	{
+	    height: 30px;
+	    font-size: 12px;
+	}
+
+	.send_order .buttonn 
+	{
+	    width: 50%;
+	    height: 30px;
+	    font-size: 14px;
+	}
+
+	.send_order #close 
+	{
+	    right: -12px;
+    	top: -12px;
+    	font-size: 14px;
+	}
+}
+
+
+/*********success****************/
+@media screen and (max-width: 600px)
+{
+	#succes_order
+	{
+		font-size: 16px !important;
+	}
+}
+/*Попап на заявку*/
+
+@media screen and (max-width: 1400px)
+	{
+		.ipoteka .ipoteka_block ul
+		{
+			width: 90%;
+		}
+
+		.ipoteka_block button
+		{
+			width: 80% !important;
+		}
+	}
+
+	@media screen and (max-width: 1050px)
+	{
+		.ipoteka .ipoteka_block
+		{
+			width: 32%;
+		}
+
+		.ipoteka .ipoteka_block ul
+		{
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 750px)
+	{
+		.desctop-ipoteka-list
+		{
+			display: none !important;
+		}
+
+		.mobile-ipoteka-list
+		{
+			display: block !important;
+		}
+	}
+
+@media screen and (max-width: 500px)
+{
+	.ipoteka .wrapp_ipoteka .ipoteka_block
+	{
+		width: 90%;
+		padding: 20px 10px;
+	}
+}

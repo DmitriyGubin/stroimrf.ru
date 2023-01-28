@@ -1,0 +1,1622 @@
+/***************************************Хидер*******************************/
+@font-face 
+{ 
+    font-family: "ManropeRegular";
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot");
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ManropeRegular/ManropeRegular.woff") format("woff"),
+    url("../fonts/ManropeRegular/ManropeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+}
+
+a
+{
+	cursor: pointer;
+}
+
+.active
+{
+	color:#4e7144 !important;
+	font-weight: bold !important;
+}
+
+.hasError::placeholder
+{
+    color: red !important;
+}
+
+.hasError
+{
+    background: #F0FFF0;
+    border: 1px red solid;
+    color: red !important;
+    box-shadow: 0px 0px 10px 1px red;
+}
+
+.headd .left_menu .video p
+{
+	margin-left: 18px !important;
+}
+
+.headd
+{
+	display: flex;
+}
+
+.headd nav .emblema_menu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headd nav .emblema_menu h2
+{
+	font-size: 20px;
+	margin-right: 2%;
+	display: none;
+}
+
+/************/
+.headd .left_menu
+{
+    min-height: 100vh;
+	width: calc(100%/1920*470);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0px 0px 15px 5px #f3f3f3;
+	z-index: 10;
+}
+
+.headd .left_menu nav .main_page_ref
+{
+	width: calc(100%/640*350);
+	/*margin: calc(100%/1080*70) 0 calc(100%/1080*67) calc(100%/640*50);*/
+	margin: 5vh 0 5vh calc(100%/640*50);
+}
+
+.headd .left_menu nav .main_page_ref img
+{
+	width: 100%;
+}
+
+.headd .left_menu nav .one_menu
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: calc(100%/640*50);
+	/*margin-bottom: calc(100%/1080*70);*/
+	margin-bottom: 5vh;
+	margin-top: 0;
+	padding: 0px;
+}
+
+.headd .left_menu nav  .one_menu li
+{
+	margin-right: calc(100%/640*45);
+}
+
+.headd ul li
+{
+	list-style-type: none;
+}
+
+.headd ul li a 
+{
+	/*font-size: 27px;*/
+	font-size: 1.5vw;
+	font-family: "ManropeRegular", sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.headd .left_menu nav .two_menu
+{
+	margin: 0 0 5vh 0;
+	/*margin-bottom: calc(100%/1080*100);*/
+	padding: 0px;
+}
+
+.headd .left_menu nav .two_menu li
+{
+	border-top: 1px #b2b2b2 solid;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+}
+
+.headd .left_menu nav .two_menu li:last-child
+{
+	border-bottom: 1px #b2b2b2 solid;
+}
+
+.headd .left_menu nav .two_menu li a
+{
+	margin-left: calc(100%/640*50);
+}
+
+.headd .left_menu nav .three_menu
+{
+	/*margin-top: calc(100%/1080*150);
+	margin-bottom: calc(100%/1080*100);*/
+	padding: 0px;
+	margin: 0 0 0 calc(100%/640*50);
+}
+
+.headd .left_menu .video
+{
+	/*height: calc(100%/1080*92);*/
+	height: 10vh;
+	background: #f8f8f8;
+	display: flex;
+	align-items: center;
+}
+
+.headd .left_menu .video div:nth-child(1)
+{
+	width: calc(100%/640*150);
+	height: 100%;
+	border: 1px #84828e solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headd .left_menu .video div img
+{
+	/*width: calc(100%/140*45);*/
+	width: 100%;
+	margin: 0px;
+}
+
+.headd .left_menu .video div a
+{
+	width: calc(100%/140*45);
+	margin-top: 5px;
+}
+
+.headd .left_menu .video p
+{
+	/*font-size: 18.46px;*/
+	font-size: 1vw;
+	font-family: "ManropeRegular", sans-serif;
+	margin-left: 18px;
+}
+
+/*Поправочные классы на скрол*/
+.modify_scroll .two_menu,
+.modify_scroll .three_menu .one_li,
+.modify_scroll .three_menu li:nth-child(3),
+.modify_scroll .video,
+.modify_scroll_right
+{
+	display: none !important;
+}
+
+.modify_scroll
+{
+	display: block !important;
+	width: 100% !important;
+	background: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 996;
+    box-shadow: 0px 0px 15px 5px #f3f3f3;
+    min-height: 1px !important;
+}
+
+.modify_scroll .main_page_ref
+{
+	margin: 0px !important;
+}
+
+.modify_scroll nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	margin: 10px auto;
+}
+
+.modify_scroll nav img,
+.modify_scroll .one_menu,
+.modify_scroll .three_menu
+{
+	margin: 0px !important;
+}
+
+.modify_scroll h3
+{
+	display: block !important;
+}
+
+.modify_scroll .all_menu
+{
+	display: flex;
+}
+
+.modify_scroll .three_menu
+{
+	display: flex;
+}
+
+.modify_scroll li a
+{
+    font-size: 23px !important;
+    font-family: "ManropeRegular", sans-serif;
+}
+
+.modify_scroll li 
+{
+	margin-bottom: 0px !important;
+	margin-right: 30px !important;
+}
+
+.modify_scroll nav .one_menu a 
+{
+    border-bottom: none !important;
+}
+
+.modify_scroll .emblema_menu
+{
+	width: 15%;
+    margin-right: 20px;
+    display: block !important;
+}
+
+.modify_scroll .emblema_menu img
+{
+	width: 100% !important;
+}
+
+.modify_scroll h3
+{
+	margin: 0px;
+    font-size: 23px;
+    font-family: "ManropeRegular", sans-serif;
+}
+
+.modify_scroll .burger_menu 
+{
+    width: 5% !important;
+}
+
+.modify_scroll nav .emblema_menu h2
+{
+	display: none !important;
+}
+/*modify_scroll_right*/
+
+/*******************************/
+.left_menu .scroll_submenu_ready,
+.left_menu .scroll_submenu_individ,
+.left_menu .scroll_submenu_about_company
+{
+	display: none;
+	position: absolute;
+	/*top: 10px;*/
+	padding: 0px;
+    z-index: 999999;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 5px #f3f3f3;
+}
+
+.left_menu .scroll_submenu_ready li,
+.left_menu .scroll_submenu_individ li,
+.left_menu .scroll_submenu_about_company li
+{
+	margin: 0;
+	padding-left: 30px;
+	width: 350px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	border-top: 1px #b2b2b2 solid;
+	margin-right: 0px !important;
+}
+
+.left_menu .scroll_submenu_ready li:nth-child(1),
+.left_menu .scroll_submenu_individ li:nth-child(1),
+.left_menu .scroll_submenu_about_company li:nth-child(1)
+{
+	border-top: none;
+}
+
+.left_menu .submenu_one,
+.left_menu .submenu_two,
+.left_menu .submenu_three
+{
+	position: relative;
+}
+/*Поправочные классы на скрол*/
+/***************Анимация*****************/
+.hide
+{
+	display: none !important;
+}
+
+.show
+{
+	display: block !important;
+	animation: showBlock 0.5s ease forwards;
+}
+
+@keyframes showBlock
+	{
+	  0% 
+	  {
+	  	opacity: 0%;
+	    width: 0%;
+	  }
+	  100% 
+	  {
+	  	opacity: 100%;
+	    width: 100%;
+	  }
+	}
+
+.deactive_menu
+	{
+		animation: HideBlock 0.5s ease forwards;
+	}
+
+@keyframes HideBlock 
+	{
+	  0% 
+	  {
+	  	width: 100%
+	    opacity: 100%;
+	  }
+
+	  50%
+	  {
+	  	opacity: 0%;
+	  }
+
+	  100% 
+	  {
+	  	width: 0%;
+	    opacity: 0%;
+	  }
+	}
+
+.modify_scroll
+{
+	animation: showScrollBlock 0.5s ease forwards;
+}
+
+@keyframes showScrollBlock
+	{
+	  0% 
+	  {
+	    opacity: 0%;
+	  }
+	  100% 
+	  {
+	    opacity: 100%;
+	  }
+	}
+
+.show_sub_menu
+{
+	display: block !important;
+	animation: showSubMenu 0.9s ease forwards;
+}
+
+@keyframes showSubMenu
+	{
+	  0% 
+	  {
+	    opacity: 0%;
+	  }
+	  100% 
+	  {
+	    opacity: 100%;
+	  }
+	}
+/***************Анимация*****************/
+.buttonn
+{
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: #4e7144;
+	color: #fefefe;
+	border: 1px #4e7144 solid;
+	transition: background 0.5s ease;
+}
+
+.buttonn:hover
+{
+	background:#969696;
+}
+
+ul li a:hover
+{
+	color:#4e7144 !important;
+}
+/***************************************Хидер*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************Футер********************/
+@font-face 
+{ 
+    font-family: "ManropeRegular";
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot");
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ManropeRegular/ManropeRegular.woff") format("woff"),
+    url("../fonts/ManropeRegular/ManropeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+}
+
+.footerr
+{
+	/*margin-top: 60px;*/
+	width: 100%;
+	/*height: 376px;*/
+	background: #dcdcdc;
+	padding: 40px 0 40px 0;
+
+}
+
+.footerr .content
+{
+	display: flex;
+	/*align-items: center;
+	height: 100%;*/
+}
+
+.footerr .content .left_info
+{
+	/*width: calc(100%/1790*466);*/
+	width: 30%;
+	/*margin-top: 100px;*/
+}
+
+.footerr nav
+{
+	width: 40%;
+	/*margin-top: 100px;*/
+}
+
+.footerr .emblema
+{
+	width: calc(100%/466*300);
+}
+
+.footerr .content .left_info div a
+{
+	/*width: calc(100%/466*50);*/
+	width: 5%;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.footerr .content .left_info div img
+{
+	/*width: 100%;*/
+}
+
+.footerr .content .left_info div
+{
+	margin: 25px 0 25px 0;
+}
+
+.footerr .content .left_info p
+{
+	margin: 0;
+	font-size: 12px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.footerr ul li
+{
+	list-style-type: none;
+	/*margin-bottom: 17px;*/
+	height: 40px;
+}
+
+.footerr ul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footerr ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.footerr nav
+{
+	display: flex;
+}
+
+.footer_menu_two
+{
+	margin-left: 100px !important;
+}
+
+
+.footerr .content .contactt
+{
+	/*margin-top: 100px;*/
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footerr .content .contactt div
+{
+	text-align: right;
+}
+
+.footerr .content .contactt div h2
+{
+	margin: 0px;
+	font-size: 25px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.footerr .content .contactt div p
+{
+	margin: 0px;
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+}
+ul li a:hover
+{
+	color:#4e7144 !important;
+}
+/*******************************************Футер********************/
+
+
+
+
+
+
+
+
+/***************************************Контент*******************************/
+@font-face 
+{ 
+    font-family: "ManropeRegular";
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot");
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ManropeRegular/ManropeRegular.woff") format("woff"),
+    url("../fonts/ManropeRegular/ManropeRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headd .right_area
+{
+	width: calc(100%/1920*1450);
+	min-height: 100vh;
+}
+
+.headd .right_area .slider,
+.headd .right_area .slider div
+{
+	height: 100%;
+}
+
+.headd .right_area .slider img
+{
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+.headd .right_area .right_area_first_line h2
+{
+	font-size: 39.29px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #fefefe;
+	text-align: right;
+	margin: 0;
+}
+
+.headd .right_area .right_area_first_line div p
+{
+	font-size: 27.89px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #fefefe;
+	text-align: right;
+	margin: 0px;
+}
+
+
+.right_area_first_line
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.right_area_first_line img
+{
+	height: 5%;
+	width: 5%;
+	margin-top: 2%;
+	display: none;
+}
+
+.headd .right_area .main_page_title
+{
+	text-align: center;
+	font-family: "ManropeRegular", sans-serif;
+	font-size: 56.77px;
+	color: #fefefe;
+	margin: 0;
+	line-height: 70px;
+}
+
+.headd .right_area .main_page_price
+{
+	text-align: center;
+	font-size: 33.63px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #fefefe;
+	margin: 0 0 calc(100%/1080*5) 0;
+}
+
+.right_area .buttonn
+{
+	display: block;
+	margin: 0 auto;
+	/*height: 50px;*/
+	padding: 5px 0;
+	width: calc(100%/1280*300);
+	border-radius: 10px;
+	background: #4e7144;
+	color: #fefefe;
+	font-size: 24px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+/*24,78*/
+.headd .right_area .right_area_last_line p
+{
+	text-align: center;
+	font-size: 24.78px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #fefefe;
+	margin: 0 0 calc(100%/1080*10) 0;
+}
+
+.right_area .community
+{
+	display: flex;
+	justify-content: center;
+}
+
+.right_area .community a
+{
+	margin-right: 15px;
+	width: calc(100%/1080*45);
+}
+
+.right_area .community img
+{
+	width: 100%;
+}
+
+.headd .right_area
+{
+	position: relative;
+}
+
+.headd .right_area .slider_img
+{
+	width: 100%;
+}
+
+.headd .right_area .content_box
+{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.slick-prev:before, .slick-next:before
+{
+	background: red !important;
+}
+
+.slick-prev
+{
+	z-index: 9999999999;
+}
+
+.slick-next
+{
+	z-index: 9999999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content
+{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/**********************************/
+.about_company
+{
+	margin-top: 80px;
+}
+
+.about_company .about_company_text 
+{
+	display: flex;
+	margin-bottom: 60px
+}
+
+.about_company img
+{
+	width:calc(100%/1790*513);
+}
+
+.about_company .textt
+{
+	width:calc(100%/1790*1277);
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+}
+
+
+.titlee
+{
+	font-size: 33px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0 0 40px 0;
+}
+
+.modify_tytle
+{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.about_company .textt div p:nth-child(2), .about_our_houses .textt div p:nth-child(2)
+{
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0 0 30px 0;
+	font-weight: bold;
+}
+
+.about_company .textt div p:nth-child(3), .about_our_houses .textt div p:nth-child(4)
+{
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0;
+}
+
+.about_company_numbers
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.about_company_numbers .blokk
+{
+	width: 18%;
+	text-align: center;
+}
+
+.about_company_numbers .blokk h2
+{
+	font-size: 100px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0;
+	color: #91a78b;
+	line-height: 110px;
+}
+
+.about_company_numbers .blokk span
+{
+	font-size: 25px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0;
+	border-bottom: 2px black solid;
+	font-weight: bold;
+}
+
+.about_company_numbers .blokk p
+{
+	font-size: 15px;
+	font-family: "ManropeRegular", sans-serif;
+	margin: 0;
+	margin-top: 10px;
+	color: #484848;
+}
+
+/********************************************/
+.about_our_houses
+{
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.about_our_houses .textt
+{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.about_our_houses .houses
+{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+/*:nth-child(1)*/
+
+.about_our_houses .houses div
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*width: calc(100%/920*425);*/
+	width: 48.2%;
+}
+
+/********************************/
+.popular_houses .four_menu li a 
+{
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.popular_houses .four_menu li
+{
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.popular_houses .four_menu
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px 0 40px 0;
+	padding: 0;
+}
+
+.houses_list
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.house_block .good_chois
+{
+	position: absolute;
+	right: 0px;
+	top: 7%;
+	width: 40%;
+	height: 50px;
+	background: #4e7144;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_block .good_chois h2
+{
+	font-size: 15px !important;
+	font-family: "ManropeRegular", sans-serif;
+	color: #ffffff;
+	margin: 0px;
+}
+
+
+.houses_list .house_block
+{
+	position: relative;
+	width: 23%;
+	/*border: 2px #e6edeb solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.modify_house_block
+{
+	width: 48.5% !important;
+}
+
+.all_popular_proj
+{
+	display: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.houses_list .house_block img
+{
+	width: 100%;
+}
+
+.houses_list .house_block h2
+{
+	font-size: 20px;
+	font-family: "ManropeRegular", sans-serif;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.houses_list .house_block p:nth-child(3)
+{
+	font-size: 14px;
+	font-family: "ManropeRegular", sans-serif;
+	text-align: center;
+	margin: 0px;
+}
+
+.houses_list .house_block p:nth-child(4)
+{
+	font-size: 18px;
+	font-family: "ManropeRegular", sans-serif;
+	text-align: center;
+	color: #4e7144;
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+.buttonn
+{
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: #4e7144;
+	color: #fefefe;
+	border: 1px #4e7144 solid;
+	transition: background 0.5s ease;
+}
+
+.buttonn:hover
+{
+	background:#969696;
+}
+
+.modify_butt_houses_list
+{
+	font-size: 16px;
+	font-family: "ManropeRegular", sans-serif;
+	width: 200px;
+	height: 45px;
+}
+/******************************/
+.townships div
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.townships div img:nth-child(1)
+{
+	width: 5%;
+}
+
+.townships div img:nth-child(2)
+{
+	width: 10%;
+}
+
+.townships div img:nth-child(3)
+{
+	width: 11%;
+}
+
+.townships div img:nth-child(4)
+{
+	width: 20%;
+	height: 50%;
+}
+
+.townships div img:nth-child(5)
+{
+	width: 20%;
+	margin-bottom: 2%;
+}
+
+/****************************************/
+.contacts
+{
+	display: flex;
+	margin-top: 60px;
+}
+.contacts .adress
+{
+	width: 45%;
+	display: flex;
+	align-items: center;
+}
+
+.contacts .adress h2
+{
+	margin-bottom: 30px;
+}
+
+.contacts .adress div div
+{
+	margin-bottom: 30px;
+}
+
+.contacts .map
+{
+	width: 55%;
+	height: 420px;
+	background: green;
+}
+
+.contacts .adress p, .contacts .adress span
+{
+	font-family: "ManropeRegular", sans-serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+.contacts .adress div div p:first-child,
+.contacts .adress .boldd
+{
+	font-weight: bold;
+}
+
+.contacts .adress_plus_point
+{
+	display: flex;
+	align-items: center;
+}
+
+.contacts .adress_plus_point a
+{
+	text-decoration: none;
+}
+
+.contacts .adress_plus_point a:hover
+{
+	opacity: 0.5;
+}
+/*************************/
+
+.order
+{
+	position: relative;
+	margin-top: 60px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-image: url("../img/34.png");
+	padding-top: 32%; /*небольшой лайф хак*/
+
+	/*background-position: center;*/
+	/*background-size: cover;*/
+}
+
+.order div
+{
+	position: absolute;
+	top: 20%;
+	left: 7%;
+}
+
+.order h2
+{
+	font-size: 56px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #ffffff;
+	margin: 0 0 20px 0;
+	line-height: 60px;
+}
+
+.order p
+{
+	font-size: 25px;
+	font-family: "ManropeRegular", sans-serif;
+	color: #ffffff;
+	margin: 0 0 30px 0;
+	width: 45%;
+}
+
+.order .buttonn
+{
+	width: 340px;
+	height: 62px;
+	font-size: 24px;
+	margin: 0px;
+}
+/*******************/
+
+.hidden
+{
+	display: flex;
+	width: 100%
+}
+
+.hidden .img_1
+{
+	width: 48.5%;
+	margin-right: 3%;
+}
+
+.hidden .righttt
+{
+	width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.hidden .img_2
+{
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.hidden .img_3
+{
+	width: 100%;
+}
+
+
+.buttonn
+{
+	cursor: pointer;
+}
+
+ul li a:hover
+{
+	color:#4e7144 !important;
+}
+
+/********яндекс карты***********/
+.my-hint 
+{
+	padding: 10px;
+	width: 160px;
+	background-color: #faefb6;
+	border: 1px solid #CDB7B5;
+	border-radius: 20px;
+	font-size: 11px;
+	font-family: "ManropeRegular", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/***************************************Контент*******************************/
+
+/*Попап на заявку*/
+.send_order
+{
+	background: #797979;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.send_order .pop-up-form
+{
+	position: relative;
+	max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 50px 90px;
+}
+
+.send_order h2
+{
+	font-size: 33px;
+	font-family: "ManropeRegular", sans-serif;
+	text-align: center;
+	margin: 0px;
+}
+
+.send_order p
+{
+	font-size: 21px;
+	line-height: 25px;
+	font-family: "ManropeRegular", sans-serif;
+	text-align: center;
+	margin: calc(100%/630*18) 0 calc(100%/630*45) 0;
+	color: #484848;
+}
+
+.send_order .below_input_text
+{
+	margin: calc(100%/630*10) 0 calc(100%/630*35) 0;
+}
+
+.send_order input
+{
+	width: 100%;
+	height: 60px;
+	margin-bottom: calc(100%/630*20);
+	font-size: 21px;
+	font-family: "ManropeRegular", sans-serif;
+	padding-left: 4%;
+}
+
+.send_order span
+{
+	color: #4e7144;
+}
+
+.send_order .buttonn
+{
+	cursor: pointer;
+}
+
+.send_order .buttonn:hover
+{
+	background:#969696;
+}
+
+.send_order .buttonn
+{
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: #4e7144;
+	color: #fefefe;
+	border: 1px #4e7144 solid;
+	transition: background 0.5s ease;
+	font-family: "ManropeRegular", sans-serif;
+	width: 35%;
+	height: 60px;
+	font-size: 23px;
+}
+
+.send_order #close
+{
+	font-size: 38px;
+	position: absolute;
+	right: -40px;
+	top: -40px;
+	color: #d2e3ce;
+	cursor: pointer;
+}
+
+.send_order #close:hover
+{
+	color: black;
+}
+
+.show_pop_up_order
+{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex !important;
+    animation: showPopUp 0.5s ease forwards;
+}
+
+@keyframes showPopUp
+	{
+	  0% 
+	  {
+	  	opacity: 0%;
+	   
+	  }
+	  100% 
+	  {
+	  	opacity: 100%;
+	   	background: rgba(121, 121, 121, 0.8);
+	  }
+	}
+
+/*********success****************/
+#succes_order 
+{
+    font-size: 23px !important;
+    font-family: "ManropeRegular", sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.send_order .pop-up-form 
+{
+    /*max-width: 500px;
+    padding: 70px 40px;*/
+}
+/*Попап на заявку*/
+
+.ipoteka
+{
+	margin-top: 30px;
+}
+
+.ipoteka .ipoteka_list
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.ipoteka .ipoteka_block
+{
+	/*width: 32.5%;*/
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 45px 10px 45px 10px;
+	margin-bottom: 15px;
+	/*box-shadow: 0 0 размытие размер_тени цвет; */
+	box-shadow: 0px 0px 15px 5px #f3f3f3;
+}
+
+.ipoteka .ipoteka_block ul
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style-type: square;
+	padding: 0;
+	list-style-position: inside;
+	width: 70%;
+}
+
+.ipoteka .ipoteka_block ul li
+{
+	color: #4e7144;
+	text-align: center;
+}
+
+.ipoteka .ipoteka_block ul span
+{
+	color: black;
+	font-size: 12px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.ipoteka .ipoteka_block div
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ipoteka .ipoteka_block img
+{
+	width: 80%;
+}
+
+.ipoteka .ipoteka_block h2
+{
+	margin: 0;
+	font-size: 20px;
+	font-family: "ManropeRegular", sans-serif;
+}
+
+.ipoteka .ipoteka_block div h2:nth-child(2)
+{
+	color: #4e7144;
+	margin-top: 10px;
+} 
+
+.ipoteka_block button
+{
+	width: 55%;
+	height: 40px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+/*.ipoteka .ipoteka_list div:nth-child(2) img
+{
+	width: 50%;
+	}*/
+
+/*.ipoteka .ipoteka_list div:nth-child(3) img
+{
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	}*/
+
+
+
+	.ipoteka .wrapp_ipoteka .ipoteka_block
+	{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/*Классы для slick-slidera*/
+
+	.slick-prev:before, .slick-next:before
+	{
+		display: none !important;
+	}
+
+	.slider {
+		position: relative;
+		/*padding: 0px 20px; /*поля между стрелкой и краем слайдера*/
+	}
+
+	.slider .slick-arrow{
+		position: absolute;
+		/*top: 50%; /*выравнивание по вертикали*/
+		/*margin: -15px 0 0 0;  /*корректировка  вертикального выравнивания*/
+		/*z-index: 2; /*стрелки сверху картинок*/
+		font-size: 0; /* убираем надпись на дефолтной стрелке*/
+		width: 15px;  /*ширина стрелки*/
+		height: 18px; /*высота стрелки*/
+	}
+
+	.slider .slick-arrow.slick-next{
+		left: 97%;
+		right: 0;
+		background: url('../img/right_arrow.png') 0 0 / 50% no-repeat;
+	}
+
+	.slider .slick-arrow.slick-prev{
+		left: 0; 
+		background: url('../img/left_arrow.png') 0 0 / 50% no-repeat;
+	}
+
+	/*Классы для slick-slidera*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
